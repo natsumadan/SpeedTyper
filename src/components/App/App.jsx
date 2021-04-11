@@ -1,4 +1,5 @@
 import React from 'react';
+import Landing from '../Landing/Landing';
 import Nav from '../Nav/Nav';
 import './App.css';
 
@@ -7,9 +8,10 @@ import './App.css';
          return (
              <div className="app">
                  {/* Nav Section*/}
-                 <Nav/>
+                 <Nav />
 
                  {/* Landing Page*/}
+                 <Landing />
 
                  {/* Challenge Section*/}
 
