@@ -1,4 +1,5 @@
 import React from 'react';
+import Footer from '../Footer/Footer';
 import Landing from '../Landing/Landing';
 import Nav from '../Nav/Nav';
 import './App.css';
@@ -16,12 +17,13 @@ import './App.css';
                  {/* Challenge Section*/}
 
                  {/* Footer*/} 
+                 <Footer />
              </div>
          )
 
      }
  }
 
-
+    
 
  export default App;
